@@ -1,19 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra il contenuto verticalmente */
-    height: 100vh;
 }
 
 .titolo {
     text-align: center;
-}
-
-.boxEsterno {
-    text-align: center;
-    flex-grow: 1;
 }
 
 .menu {
