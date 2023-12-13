@@ -2,5 +2,5 @@
 $host="localhost";
 $username="root";
 $pasword="";
-$dbName="libreria"; 
+$dbName="Libreria"; 
 ?>

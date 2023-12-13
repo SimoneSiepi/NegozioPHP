@@ -12,22 +12,23 @@ body {
     justify-content: center;
 }
 
-.aggiungiLibro,
 .visualizzaLista {
     margin: 20px;
     text-align: center; /* Centra il contenuto orizzontalmente */
 }
 
-.aggiungiLibro a,
 .visualizzaLista a {
     display: block;
 }
 
-.aggiungiLibro img,
 .visualizzaLista img {
     width: 100px;
     height: 100px;
     border: none;
+}
+
+.titoloFiltro{
+    text-align: left;
 }
 
 footer {
@@ -38,4 +39,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.filtroInput{
+    margin-bottom: 10px;
+}
+
+#outputTable{
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 2px solid black;   
 }
